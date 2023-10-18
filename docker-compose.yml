@@ -26,9 +26,9 @@ services:
     volumes:
       - dev-db-data:/var/lib/postgresql/data
     environment:
-      - POSTGRESQL_DB=devdb
-      - POSTGRESQL_USER=devuser
-      - POSTGRESQL_PASSWORD=changeme
+      - POSTGRES_DB=devdb
+      - POSTGRES_USER=devuser
+      - POSTGRES_PASSWORD=changeme
 
 volumes:
   dev-db-data:
