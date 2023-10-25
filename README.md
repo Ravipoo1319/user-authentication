@@ -113,7 +113,7 @@ API documentation is generated using the drf-spectacular library and is availabl
 
 ## Testing
 
-Tests are written following Test Driven Development (TDD) techniques and are located in the `api` app. You can run the tests using the following command:
+Tests are written following Test Driven Development (TDD) techniques and are located in the `tests/` directory of each app. You can run the tests using the following command:
 
 ```bash
 docker-compose run --rm app sh -c "python manage.py test"
